@@ -1,0 +1,94 @@
+main: fr.legabi.mysocialnetwork.Main
+author: le_gabi
+name: MySocialNetworks
+version: 1.0.2
+description: A simple plugin to share your server social networks
+website: legabi.ga
+prefix: MySocialNetworks
+
+commands:
+  discord:
+    description: The command to share your discord
+  youtube:
+    description: The command to share your YouTube channel
+  tiktok:
+    description: The command to share your TikTok account
+  twitter:
+    description: The command to share your Twitter account
+  site:
+    description: The command to share your website
+    aliases:
+      - website
+  mysocialnetworks:
+    description: Default command of the plugin
+    aliases:
+      - msn
+
+permissions:
+  mysocialnetworks.*:
+    default: op
+    children:
+      mysocialnetworks.discord: true
+      mysocialnetworks.discord.config: true
+      mysocialnetworks.youtube: true
+      mysocialnetworks.youtube.config: true
+      mysocialnetworks.tiktok: true
+      mysocialnetworks.tiktok.config: true
+      mysocialnetworks.twitter: true
+      mysocialnetworks.twitter.config: true
+      mysocialnetworks.site: true
+      mysocialnetworks.site.config: true
+      mysocialnetworks.admin: true
+
+  mysocialnetworks.admin:
+    default: op
+
+  mysocialnetworks.discord.*:
+    default: op
+    children:
+      mysocialnetworks.discord: true
+      mysocialnetworks.discord.config: true
+  mysocialnetworks.discord:
+    default: true
+  mysocialnetworks.discord.config:
+    default: op
+
+  mysocialnetworks.youtube.*:
+    default: op
+    children:
+      mysocialnetworks.youtube: true
+      mysocialnetworks.youtube.config: true
+  mysocialnetworks.youtube:
+    default: true
+  mysocialnetworks.youtube.config:
+    default: op
+
+  mysocialnetworks.tiktok.*:
+    default: op
+    children:
+      mysocialnetworks.tiktok: true
+      mysocialnetworks.tiktok.config: true
+  mysocialnetworks.tiktok:
+    default: true
+  mysocialnetworks.tiktok.config:
+    default: op
+
+  mysocialnetworks.twitter.*:
+    default: op
+    children:
+      mysocialnetworks.twitter: true
+      mysocialnetworks.twitter.config: true
+  mysocialnetworks.twitter:
+    default: true
+  mysocialnetworks.twitter.config:
+    default: op
+
+  mysocialnetworks.site.*:
+    default: op
+    children:
+      mysocialnetworks.site: true
+      mysocialnetworks.site.config: true
+  mysocialnetworks.site:
+    default: true
+  mysocialnetworks.site.config:
+    default: op

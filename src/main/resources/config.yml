@@ -1,0 +1,45 @@
+#########################
+#                       #
+#     Configuration     #
+#                       #
+#########################
+
+notEnabled: "&cThis command is disabled"
+notHavePermission: "&cYou don't have permission to execute this command"
+
+
+#########################
+#                       #
+#     Your contacts     #
+#                       #
+#########################
+
+discord:
+  link: "https://discord.gg/yourInvite"
+  message: "&9Discord ➔ https://discord.gg/yourInvite"
+  # you can made also message: "&9Discord ➔ click"
+  enable: true
+
+youtube:
+  link: "https://www.youtube.com/channel/yourChannel"
+  message: "&cYou&rTube &c➔ https://www.youtube.com/channel/yourChannel"
+  # you can made also message: "&9You&rTube &c➔ click"
+  enable: true
+
+tiktok:
+  link: "https://www.tiktok.com/@yourTikTok"
+  message: "&bTik&cTok &b➔ https://www.tiktok.com/@yourTikTok"
+  # you can made also message: "&bTik&cTok &b➔ click"
+  enable: true
+
+twitter:
+  link: "https://twitter.com/yourAccount"
+  message: "&1Twitter ➔ https://twitter.com/yourAccount"
+  # you can made also message: "&1Twitter ➔ click"
+  enable: true
+
+site:
+  link: "https://youwebsite.com"
+  message: "&6Website ➔ https://youwebsite.com"
+  # you can made also message: "&6Website ➔ click"
+  enable: true
