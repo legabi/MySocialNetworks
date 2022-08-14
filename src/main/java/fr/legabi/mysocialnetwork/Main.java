@@ -44,6 +44,7 @@ public final class Main extends JavaPlugin implements Listener {
         getCommand("tiktok").setExecutor(new TikTokCommand(this));
         getCommand("twitter").setExecutor(new TwitterCommand(this));
         getCommand("site").setExecutor(new SiteCommand(this));
+        getCommand("instagram").setExecutor(new InstagramCommand(this));
         getCommand("mysocialnetworks").setExecutor(new DefaultCommand(this));
 
         Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "\n           __  __        _____ __  __          \n" +
