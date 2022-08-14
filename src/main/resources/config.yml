@@ -43,3 +43,9 @@ site:
   message: "&6Website ➔ https://youwebsite.com"
   # you can made also message: "&6Website ➔ click"
   enable: true
+
+instagram:
+  link: "https://www.instagram.com/p/YourAccount/"
+  message: "&dInstagram ➔ https://www.instagram.com/p/YourAccount/"
+  # you can made also message: "&dInstagram ➔ click"
+  enable: true

@@ -19,6 +19,10 @@ commands:
     description: The command to share your website
     aliases:
       - website
+  instagram:
+    description: The command to share your instagram account
+    aliases:
+      - insta
   mysocialnetworks:
     description: Default command of the plugin
     aliases:
